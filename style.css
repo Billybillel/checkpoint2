@@ -208,10 +208,42 @@ nav ul li a:hover{
     width: 60%;
 }
 
+.contact{
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--pading);
+}
+.contact-container hr{
+    width: 28rem;
+    margin:0.5rem 1rem;
+}
+.information-contact i{
+    margin-right: 1rem;
+    font-size: 2rem;
+
+}
+.contact p{
+    margin:0.5rem 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form [type=text],[type=email],button{
+    padding: 1rem;
+    margin:0.5rem 1rem;
+} 
+form button{
+    
+   width: 15rem;
+   cursor: pointer;
+    
+}
+
 
 footer{
     padding: 2rem var(--pading);
-    background-color: var(--bgColor-1);
+    background-color: var(--bgColor-2);
 }
 footer .content-footer{
     display: flex;
@@ -228,4 +260,7 @@ footer .content-footer p{
 footer .content-footer .end{
     color: var(--primaryColor);
     margin-top: 1rem;
+}
+footer .content-footer a img{
+    width: 2.5rem;
 }
